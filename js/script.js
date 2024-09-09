@@ -416,26 +416,26 @@ function heroAnimation() {
 }
 
 function dateAnimation() {
-    const strips = $$(".strip");
+    const strips = document.querySelectorAll(".strip");
 
     dateTl
         .to(strips[3], {
-            y: -12.4 + "em",
+            y: -10.4 + "em", // Shows 2
             duration: 3,
             ease: "expo.inOut",
         })
         .to(strips[2], {
-            y: -13.9 + "em",
+            y: 0 + "em", // Shows 0
             duration: 2.5,
             ease: "expo.inOut",
         }, "-=2")
         .to(strips[1], {
-            y: -12.4 + "em",
+            y: 0 + "em", // Shows 0
             duration: 2,
             ease: "expo.inOut",
         }, "-=2")
         .to(strips[0], {
-            y: -1.9 + "em",
+            y: -9.5 + "em", // Shows 5
             duration: 3.5,
             ease: "expo.inOut",
         }, "-=3");
