@@ -435,7 +435,7 @@ function dateAnimation() {
             ease: "expo.inOut",
         }, "-=2")
         .to(strips[0], {
-            y: -9.5 + "em", // Shows 5
+            y: -7.7 + "em", // Shows 5
             duration: 3.5,
             ease: "expo.inOut",
         }, "-=3");
