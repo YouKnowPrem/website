@@ -420,7 +420,7 @@ function dateAnimation() {
 
     dateTl
         .to(strips[3], {
-            y: -10.0 + "em", // Shows 2
+            y: -4.0 + "em", // Shows 2
             duration: 3,
             ease: "expo.inOut",
         })
