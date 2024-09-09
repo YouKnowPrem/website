@@ -1,2 +1,1 @@
-# moseos-clone
-This website is recreated by me for competition purpose
+#take away from this website is loading animation and base of this website
